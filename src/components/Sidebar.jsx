@@ -25,7 +25,7 @@ const Sidebar = () => {
                 <Image src={'/logo.svg'} width={150} height={150} alt="Logo" />
             </div>
             <ul className="w-full px-4 space-y-4">
-                <Link href="/" className={`flex items-center px-6 py-3 rounded-md cursor-pointer hover:bg-[#919191] ${activeLink('/')}`}>
+                <Link href="/overview" className={`flex items-center px-6 py-3 rounded-md cursor-pointer hover:bg-[#919191] ${activeLink('/')}`}>
                     <li className="flex items-center w-full">
                         <FaHome className="mr-3" />
                         <span>Overview</span>
